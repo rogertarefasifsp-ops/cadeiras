@@ -14,7 +14,7 @@ CADEIRAS = [
                      "Clássico de sala de aula, firme e leve. Tem pequenos arranhões no assento "
                      "e lascas na borda do encosto.",
         "fotos": ["img/verde1.jpg", "img/verde2.jpg"],
-        "vendedor": {"nome": "Nicollas Augusto", "whatsapp": "5500000000000"},
+        "vendedor": {"nome": "Nicollas Augusto", "whatsapp": "5511967329940"},
     },
     {
         "slug": "giratoria-azul",
@@ -24,7 +24,7 @@ CADEIRAS = [
         "descricao": "Cadeira de escritório giratória com rodízios, braços reguláveis e estofado "
                      "azul. Base de cinco pontas. Estofado com leves marcas de uso.",
         "fotos": ["img/azul1.jpg", "img/azul2.jpg"],
-        "vendedor": {"nome": "Roger Clemente", "whatsapp": "5500000000000"},
+        "vendedor": {"nome": "Roger Clemente", "whatsapp": "5511963978331"},
     },
     {
         "slug": "fixa-preta-estofada",
@@ -35,7 +35,7 @@ CADEIRAS = [
                      "courino. Ótima para recepção ou estudo. O assento tem rasgos no courino "
                      "e vai precisar de reforma.",
         "fotos": ["img/preta1.jpg", "img/preta2.jpg"],
-        "vendedor": {"nome": "Nicolas Moreira", "whatsapp": "5500000000000"},
+        "vendedor": {"nome": "Nicolas Moreira", "whatsapp": "5511915201148"},
     },
     {
         "slug": "plastica-preta-perfurada",
@@ -45,7 +45,7 @@ CADEIRAS = [
         "descricao": "Cadeira empilhável com assento e encosto em plástico preto, encosto perfurado "
                      "e estrutura de aço tipo trenó. Boa para auditório, reunião ou mesa de desenho.",
         "fotos": ["img/plastica1.jpg", "img/plastica2.jpg"],
-        "vendedor": {"nome": "Iago Braga", "whatsapp": "5500000000000"},
+        "vendedor": {"nome": "Iago Braga", "whatsapp": "5511959745339"},
     },
     {
         "slug": "escolar-cinza-azulada",
