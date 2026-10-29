@@ -37,6 +37,46 @@ CADEIRAS = [
         "fotos": ["img/preta1.jpg", "img/preta2.jpg"],
         "vendedor": {"nome": "Nicolas Moreira", "whatsapp": "5500000000000"},
     },
+    {
+        "slug": "plastica-preta-perfurada",
+        "nome": "Cadeira preta de polipropileno",
+        "preco": 110.00,
+        "estado": "Usada, bom estado",
+        "descricao": "Cadeira empilhável com assento e encosto em plástico preto, encosto perfurado "
+                     "e estrutura de aço tipo trenó. Boa para auditório, reunião ou mesa de desenho.",
+        "fotos": ["img/plastica1.jpg", "img/plastica2.jpg"],
+        "vendedor": {"nome": "Iago Braga", "whatsapp": "5500000000000"},
+    },
+    {
+        "slug": "escolar-cinza-azulada",
+        "nome": "Cadeira escolar cinza-azulada",
+        "preco": 80.00,
+        "estado": "Usada, bom estado",
+        "descricao": "Cadeira com assento e encosto em plástico cinza-azulado e estrutura de tubo "
+                     "cinza-claro, com ponteiras nos pés. Leve, resistente e fácil de limpar.",
+        "fotos": ["img/escolar1.jpg", "img/escolar2.jpg"],
+        "vendedor": {"nome": "Iago Braga", "whatsapp": "5500000000000"},
+    },
+    {
+        "slug": "giratoria-preta-baixa",
+        "nome": "Cadeira giratória preta com base cromada",
+        "preco": 140.00,
+        "estado": "Usada, bom estado",
+        "descricao": "Cadeira de escritório sem braços, com regulagem de altura, rodízios e base "
+                     "cromada de cinco pontas. Estofado em courino preto.",
+        "fotos": ["img/swivel1.jpg", "img/swivel2.jpg"],
+        "vendedor": {"nome": "Iago Braga", "whatsapp": "5500000000000"},
+    },
+    {
+        "slug": "estofada-preta-listrada",
+        "nome": "Cadeira estofada preta com pés cinza",
+        "preco": 100.00,
+        "estado": "Usada, bom estado",
+        "descricao": "Cadeira fixa com assento e encosto estofados em courino preto com costuras "
+                     "verticais e estrutura de aço. Boa para recepção, escritório ou estudo.",
+        "fotos": ["img/estofada1.jpg", "img/estofada2.jpg"],
+        "vendedor": {"nome": "Iago Braga", "whatsapp": "5500000000000"},
+    },
 ]
 
 
