@@ -6,38 +6,6 @@ app = Flask(__name__)
 # Edite preços, descrições e o WhatsApp (55 + DDD + número, só dígitos) de cada vendedor.
 CADEIRAS = [
     {
-        "slug": "escolar-verde-menta",
-        "nome": "Cadeira escolar verde-menta",
-        "preco": 120.00,
-        "estado": "Usada, com desgaste nas bordas",
-        "descricao": "Assento e encosto em laminado verde-menta sobre estrutura de tubo preto. "
-                     "Clássico de sala de aula, firme e leve. Tem pequenos arranhões no assento "
-                     "e lascas na borda do encosto.",
-        "fotos": ["img/verde1.jpg", "img/verde2.jpg"],
-        "vendedor": {"nome": "Nicollas Augusto", "whatsapp": "5511967329940"},
-    },
-    {
-        "slug": "giratoria-azul",
-        "nome": "Cadeira giratória azul com braços",
-        "preco": 250.00,
-        "estado": "Usada, bom estado",
-        "descricao": "Cadeira de escritório giratória com rodízios, braços reguláveis e estofado "
-                     "azul. Base de cinco pontas. Estofado com leves marcas de uso.",
-        "fotos": ["img/azul1.jpg", "img/azul2.jpg"],
-        "vendedor": {"nome": "Roger Clemente", "whatsapp": "5511963978331"},
-    },
-    {
-        "slug": "fixa-preta-estofada",
-        "nome": "Cadeira fixa preta estofada",
-        "preco": 90.00,
-        "estado": "Usada, assento com rasgos",
-        "descricao": "Cadeira fixa com estrutura de aço preta, assento e encosto estofados em "
-                     "courino. Ótima para recepção ou estudo. O assento tem rasgos no courino "
-                     "e vai precisar de reforma.",
-        "fotos": ["img/preta1.jpg", "img/preta2.jpg"],
-        "vendedor": {"nome": "Nicolas Moreira", "whatsapp": "5511915201148"},
-    },
-    {
         "slug": "plastica-preta-perfurada",
         "nome": "Cadeira preta de polipropileno",
         "preco": 110.00,
@@ -45,7 +13,7 @@ CADEIRAS = [
         "descricao": "Cadeira empilhável com assento e encosto em plástico preto, encosto perfurado "
                      "e estrutura de aço tipo trenó. Boa para auditório, reunião ou mesa de desenho.",
         "fotos": ["img/plastica1.jpg", "img/plastica2.jpg"],
-        "vendedor": {"nome": "Iago Braga", "whatsapp": "5511959745339"},
+        "vendedor": {"nome": "Iago Braga", "whatsapp": "5500000000000"},
     },
     {
         "slug": "escolar-cinza-azulada",
