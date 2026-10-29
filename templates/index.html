@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>Três cadeiras, três vendedores, nenhuma enrolação.</h1>
+  <p>Escolha a cadeira, veja as fotos reais e chame o dono no WhatsApp.</p>
+</section>
+<section class="grid">
+{% for c in cadeiras %}
+  <a class="item t{{ loop.index }}" href="{{ url_for('cadeira', slug=c.slug) }}">
+    <div class="pics">
+      <img src="{{ url_for('static', filename=c.fotos[0]) }}" alt="{{ c.nome }}, foto 1">
+      <img src="{{ url_for('static', filename=c.fotos[1]) }}" alt="{{ c.nome }}, foto 2">
+    </div>
+    <div class="info">
+      <h2>{{ c.nome }}</h2>
+      <p class="estado">{{ c.estado }}</p>
+      <p class="linha"><strong>{{ c.preco|brl }}</strong><span>Vendedor: {{ c.vendedor.nome }}</span></p>
+    </div>
+  </a>
+{% endfor %}
+</section>
+{% endblock %}

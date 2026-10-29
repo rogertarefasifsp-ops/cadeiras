@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}{{ c.nome }} | Assento Usado{% endblock %}
+{% block content %}
+<a class="voltar" href="{{ url_for('index') }}">Voltar às cadeiras</a>
+<section class="detalhe">
+  <div class="galeria">
+    <img id="principal" src="{{ url_for('static', filename=c.fotos[0]) }}" alt="{{ c.nome }}">
+    <div class="mini">
+      {% for f in c.fotos %}
+      <button type="button" class="{{ 'on' if loop.first }}" data-src="{{ url_for('static', filename=f) }}" aria-label="Ver foto {{ loop.index }}">
+        <img src="{{ url_for('static', filename=f) }}" alt="">
+      </button>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="texto">
+    <h1>{{ c.nome }}</h1>
+    <p class="preco">{{ c.preco|brl }}</p>
+    <p class="estado">{{ c.estado }}</p>
+    <p>{{ c.descricao }}</p>
+    <p class="vend">Vendedor: <strong>{{ c.vendedor.nome }}</strong></p>
+    <a class="btn" href="{{ link }}" target="_blank" rel="noopener">Chamar {{ c.vendedor.nome.split()[0] }} no WhatsApp</a>
+  </div>
+</section>
+<script>
+document.querySelectorAll('.mini button').forEach(b => b.addEventListener('click', () => {
+  document.getElementById('principal').src = b.dataset.src;
+  document.querySelectorAll('.mini button').forEach(x => x.classList.remove('on'));
+  b.classList.add('on');
+}));
+</script>
+{% endblock %}
